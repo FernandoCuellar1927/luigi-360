@@ -1,0 +1,24 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.product-viewer {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-viewer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
